@@ -6,3 +6,4 @@ SELECT id
 ,cdc_ts
 FROM users u
 join customer c on c.id = u.customer_id
+where id=1
