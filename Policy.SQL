@@ -5,4 +5,4 @@ SELECT id
 ,created_by 
 FROM users u
 join customer c on c.id = u.customer_id
-where id=2
+where id=4
